@@ -11,7 +11,7 @@
   8) cv2
 * If not installed, use 'pip install {module name}' command in terminal of vscode to install them successfully.
 
-Projects Features:
+## Projects Features:
 * General commands : The voice assistant recognizes the user's voice and responds to 
  general commands given by the user, such as "Hi" or "Hello."
 * Weather Prediction : The voice assistant can predict weather conditions and provide 
