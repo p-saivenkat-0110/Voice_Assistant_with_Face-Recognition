@@ -1,4 +1,4 @@
-# Voice_Assistant_with_Face-Recognition
+## User Manual
 * In Requirements folder, there is a file named songs.txt which contains the unique IDs of songs from youtube music; those ids should be appended to the link 'https://music.youtube.com/watch?v=', so that song of that particular id is played by redirecting to YouTube music.
 * Make sure that below modules are installed :
   1) pyttsx3
