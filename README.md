@@ -1,6 +1,16 @@
 # Voice_Assistant_with_Face-Recognition
 * Featuring a Voice Assistant with face recognition capabilities enabling handsfree control and personalized interactions combining voice commands and facial recognition for enhanced user experience and convenience.
 * In Requirements folder, there is a file named songs.txt which contains the unique IDs of songs from youtube music; those ids should be appended to the link 'https://music.youtube.com/watch?v=', so that song of that particular id is played by redirecting to YouTube music.
+* Make sure that below modules are installed :
+  1) pyttsx3
+  2) speech-recognition
+  3) webbrowser
+  4) wikipedia
+  5) wolframalpha
+  6) pygame
+  7) PIL
+  8) cv2
+* If not installed use 'pip install {module name}' command in terminal of vscode.
 
 Projects Features:
 * General commands : The voice assistant recognizes the user's voice and responds to 
