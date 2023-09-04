@@ -79,7 +79,7 @@ import pickle
 """
 Set the directory to where all the project files are saved
 """
-os.chdir(r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\Voice assistant(Mini project)")
+os.chdir("Voice assistant(Mini project)")
 
 
 """
@@ -244,7 +244,7 @@ class FACE_RECOGNITION(speaker):     # Inherits the properties from 'speaker' cl
     
     def __init__(self):
         # Setting the path for face-recognition files to access...
-        self.default_path = r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\OpenCV"
+        self.default_path = "OpenCV"
         
         # Loading the classifier into a variable which contains the trained data of human faces...
         self.face_classifier = cv2.CascadeClassifier(os.path.join(self.default_path,"data\haarcascades\haarcascade_frontalface_alt.xml"))
