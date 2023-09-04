@@ -79,7 +79,7 @@ import pickle
 """
 Set the directory to where all the project files are saved
 """
-os.chdir(r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\Voice assistant(Mini project)")
+os.chdir("Voice assistant(Mini project)")
 
 
 """
@@ -104,7 +104,8 @@ All the queries are answered via an WolFram Alpha account which each account has
 Declaring global variables
 """
 
-client = wfa.Client("9LJU3Q-R3UKL8YLUQ")      # Setting the AppID to use wolfram alpha service...
+# Here, ID is your unique API key of wolfram alpha... (Create a account in wolfram alpha and request API key)...  
+client = wfa.Client(ID)      # Setting the AppID to use wolfram alpha service...
 
 current_voice = 1   # The global variable to change the voice of assistant... 
 
@@ -243,7 +244,7 @@ class FACE_RECOGNITION(speaker):     # Inherits the properties from 'speaker' cl
     
     def __init__(self):
         # Setting the path for face-recognition files to access...
-        self.default_path = r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\OpenCV"
+        self.default_path = "OpenCV"
         
         # Loading the classifier into a variable which contains the trained data of human faces...
         self.face_classifier = cv2.CascadeClassifier(os.path.join(self.default_path,"data\haarcascades\haarcascade_frontalface_alt.xml"))
