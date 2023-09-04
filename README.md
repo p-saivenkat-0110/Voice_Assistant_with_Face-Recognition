@@ -1,6 +1,6 @@
 # Voice_Assistant_with_Face-Recognition
 * Featuring a Voice Assistant with face recognition capabilities enabling handsfree control and personalized interactions combining voice commands and facial recognition for enhanced user experience and convenience.
-* In Requirements folder, there is a file named songs.txt which contains the unique IDs of songs from youtube music; those ids should be appended to 'https://music.youtube.com/watch?v=' this link.
+* In Requirements folder, there is a file named songs.txt which contains the unique IDs of songs from youtube music; those ids should be appended to the link 'https://music.youtube.com/watch?v=', so that song of that particular id is played by redirecting to YouTube music.
 
 Projects Features:
 * General commands : The voice assistant recognizes the user's voice and responds to 
