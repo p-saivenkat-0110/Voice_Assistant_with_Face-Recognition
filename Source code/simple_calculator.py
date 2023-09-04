@@ -2,7 +2,7 @@ import tkinter
 root = tkinter.Tk()
 
 root.title("Calculator")
-root.iconbitmap(r"C:\Users\saive\OneDrive\Desktop\CODING WORK\Python programs\Voice assistant(Mini project)\calculator.ico")
+root.iconbitmap("Voice assistant(Mini project)\calculator.ico")
 sw = root.winfo_screenwidth()
 sh = root.winfo_screenheight()
 
