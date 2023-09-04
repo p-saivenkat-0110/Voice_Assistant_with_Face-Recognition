@@ -10,7 +10,7 @@
   6) pygame
   7) PIL
   8) cv2
-* If not installed use 'pip install {module name}' command in terminal of vscode.
+* If not installed, use 'pip install {module name}' command in terminal of vscode to install them successfully.
 
 Projects Features:
 * General commands : The voice assistant recognizes the user's voice and responds to 
